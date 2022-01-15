@@ -1,1 +1,3 @@
 # Hunger-Games
+
+This is a text-based adventure game based on the series, "The Hunger Games". In this game, the user will be prompted to pick a tribute they wish to play as. They will then be given the stats of the player, which is important for later on, then the games begin. In this game, the user will be put in senarios where the have to make choices to survive. The stats of the tribute come into play when making choices, so be careful. Throughout the game, it will become harder to survive with the odds stacking against you. Overall is a fun game and great project I got to work on, hope you enjoy!
