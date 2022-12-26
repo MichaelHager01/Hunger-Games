@@ -4,7 +4,7 @@ This is a text-based adventure game based on the series, "The Hunger Games". In 
 
 # Switch-Case
 
-In the code, I chose to use switch-case statements to be the main tool for this project. These statements allow me to effectively put the user in scenarios where they would pick on choice, and move on from there. I was also able to utilize classes and functions to be able to shorten my code and have it run more smoothly.
+In the code, I chose to use switch-case statements to be the main tool for this project. These statements allow me to effectively put the user in scenarios where they would pick a choice, and move on from there. I was also able to utilize classes and functions to be able to shorten my code and have it run more smoothly.
 
 # Stats
 
