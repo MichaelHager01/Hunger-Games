@@ -14,7 +14,7 @@ I have decided on stats for each tribute, and those can be viewed in the code "f
 
 While the user plays the game, the odds will stack up against them over time. How does that happen? Well, I am so glad you asked, I can explain. Below is the function I use to determine whether a tribute lives or dies in a specific scenario. 
 
-'''python
+```python
 bool if_dead(int trait, int liveChance) {
     srand(time(0)); int chance = rand() % 100 + 1;
     if (((trait + liveChance) / chance) < 1) {
@@ -22,6 +22,6 @@ bool if_dead(int trait, int liveChance) {
     }
     return false;
 }
-'''
+```
 
 This block of code takes in the stats of the tribute being tested and the chance of living. Throughout the encounters faced, the chance of living decreases from 100 to 20. This causes luck to be a factor when playing, no matter how prepared the user is for any situation.
