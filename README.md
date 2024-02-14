@@ -14,7 +14,7 @@ I have decided on stats for each tribute, and those can be viewed in the code "f
 
 While the user plays the game, the odds will stack up against them over time. How does that happen? Well, I am so glad you asked, I can explain. Below is the function I use to determine whether a tribute lives or dies in a specific scenario. 
 
-'''
+'''python
 bool if_dead(int trait, int liveChance) {
     srand(time(0)); int chance = rand() % 100 + 1;
     if (((trait + liveChance) / chance) < 1) {
